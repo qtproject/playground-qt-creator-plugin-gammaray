@@ -42,7 +42,7 @@
 
 #include <projectexplorer/applicationrunconfiguration.h>
 
-#include <QtGui/QWidget>
+#include <QWidget>
 
 using namespace Analyzer;
 using namespace ProjectExplorer;

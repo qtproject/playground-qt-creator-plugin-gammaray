@@ -34,7 +34,7 @@
 #ifndef GAMMARAYCONFIGWIDGET_H
 #define GAMMARAYCONFIGWIDGET_H
 
-#include <QtGui/QWidget>
+#include <QWidget>
 
 #include "gammarayconstants.h"
 

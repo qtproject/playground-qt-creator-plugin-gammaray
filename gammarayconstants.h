@@ -34,8 +34,8 @@
 #ifndef GAMMARAYCONSTANTS_H
 #define GAMMARAYCONSTANTS_H
 
-#include <QtCore/QLatin1String>
-#include <QtCore/QMetaType>
+#include <QLatin1String>
+#include <QMetaType>
 
 namespace Gammaray {
 namespace Constants {
@@ -55,6 +55,6 @@ enum InjectorType {
 } // namespace Constants
 } // namespace Gammaray
 
-Q_DECLARE_METATYPE(Gammaray::Constants::InjectorType);
+Q_DECLARE_METATYPE(Gammaray::Constants::InjectorType)
 
 #endif // GAMMARAYCONSTANTS_H

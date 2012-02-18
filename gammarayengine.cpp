@@ -55,11 +55,10 @@
 #include <qtsupport/baseqtversion.h>
 #include <qtsupport/qtversionmanager.h>
 
-#include <QtGui/QApplication>
-#include <QtGui/QMainWindow>
-#include <QtGui/QAction>
-
-#include <QtCore/QFileInfo>
+#include <QApplication>
+#include <QMainWindow>
+#include <QAction>
+#include <QFileInfo>
 
 using namespace Analyzer;
 

@@ -36,9 +36,9 @@
 
 #include <analyzerbase/ianalyzerengine.h>
 
-#include <QtCore/QFutureWatcher>
-
 #include <utils/qtcprocess.h>
+
+#include <QFutureWatcher>
 
 namespace Gammaray {
 

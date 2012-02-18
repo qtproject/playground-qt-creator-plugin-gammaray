@@ -38,8 +38,7 @@
 #include <analyzerbase/analyzermanager.h>
 #include <analyzerbase/analyzersettings.h>
 
-#include <QtCore/QtPlugin>
-#include <QtCore/QDebug>
+#include <QtPlugin>
 
 using namespace Analyzer;
 using namespace Gammaray;

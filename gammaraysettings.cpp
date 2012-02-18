@@ -37,8 +37,7 @@
 #include <coreplugin/icore.h>
 #include <utils/qtcassert.h>
 
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QSettings>
 
 using namespace Analyzer;
 

@@ -43,8 +43,8 @@
 #include <utils/qtcassert.h>
 #include <utils/pathchooser.h>
 
-#include <QtGui/QFileDialog>
-#include <QtGui/QTreeWidget>
+#include <QFileDialog>
+#include <QTreeWidget>
 
 using namespace Gammaray;
 
