@@ -3,7 +3,7 @@ TEMPLATE = lib
 
 # DEFINES += 
 
-# QT += 
+QT += network
 
 # Gammaray files
 
