@@ -101,7 +101,7 @@ Core::Id GammarayTool::id() const
 
 RunMode GammarayTool::runMode() const
 {
-    (RunMode)0x6825;
+    return (RunMode)0x6825;
 }
 
 bool GammarayTool::canRun(ProjectExplorer::RunConfiguration *runConfiguration, RunMode mode) const
