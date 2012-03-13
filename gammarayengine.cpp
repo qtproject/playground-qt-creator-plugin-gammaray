@@ -72,7 +72,7 @@ GammarayEngine::GammarayEngine(IAnalyzerTool *tool,
     AnalyzerSettings *settings = 0;
 
     if (runConfiguration) {
-        settings = runConfiguration->extraAspect<AnalyzerProjectSettings>();
+        settings = runConfiguration->extraAspect<AnalyzerRunConfigurationAspect>();
     }
     if (!settings) {
         settings = AnalyzerGlobalSettings::instance();

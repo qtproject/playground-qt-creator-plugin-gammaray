@@ -68,7 +68,7 @@ QVariantMap GammarayBaseSettings::defaults() const
     return map;
 }
 
-bool GammarayBaseSettings::fromMap(const QVariantMap &map)
+void GammarayBaseSettings::fromMap(const QVariantMap &map)
 {
     int injector = 0;
     setIfPresent(map, injectorC, &injector);
@@ -78,7 +78,6 @@ bool GammarayBaseSettings::fromMap(const QVariantMap &map)
     setIfPresent(map, gammarayForQtC, &m_gammarayForQt);
 
     emit changed();
-    return true;
 }
 
 QString GammarayBaseSettings::id() const

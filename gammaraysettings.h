@@ -52,7 +52,7 @@ public:
 
     virtual QVariantMap toMap() const;
     virtual QVariantMap defaults() const;
-    virtual bool fromMap(const QVariantMap &map);
+    virtual void fromMap(const QVariantMap &map);
 
     virtual QString id() const;
     virtual QString displayName() const;
